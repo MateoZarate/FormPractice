@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+
+	<body>
+        <form action ="">
+        <!--Text-->
+            <label for="artistfname">First name:</label><br>
+            <input type="text" id="artistfname" name="artistfname"><br>
+        <!--Textarea-->
+            <h1>Hi</h1><br>
+        <!--Radio-->
+        <h1>Whats your favorite game?</h1><br>
+        <input type="radio" id="fortnite" name="fav_game" value="Fortnite">
+        <label for="fortnite">Fortnite</label><br>
+        <input type="radio" id="cod" name="fav_game" value="COD">
+        <label for="cod">COD</label><br>
+        <input type="radio" id="minecraft" name="fav_game" value="Minecraft">
+        <label for="minecraft">Minecraft</label>
+        <!--Checkbox-->
+        <h1>Choose your dinner</h1><br>
+        <input type="checkbox" id="food1" name="food1" value="Mac n Cheese">
+        <label for="food1"> Ill have Mac n Cheese</label><br>
+        <input type="checkbox" id="food2" name="food2" value="Burger">
+        <label for="food2"> Ill have a Burger</label><br>
+        <input type="checkbox" id="food3" name="food3" value="Milk Shake">
+        <label for="food3"> Ill have a Milk Shake</label>
+        <!--Submit-->
+        <h1>Whats your favorite artist?</h1>
+        <label for="artistfname">First name:</label><br>
+        <input type="text" id="artistfname" name="artistfname" value="John"><br>
+        <label for="artistlname">Last name:</label><br>
+        <input type="text" id="artistlname" name="artistlname" value="Doe"><br><br>
+        <input type="submit" value="Submit"><br>
+        <!--Select--><br>
+        <label for="state">Choose a state:</label>
+        <select id="state" name="state">
+        <option value="california">California</option>
+        <option value="new york">New York</option>
+        <option value="florida">Florida</option>
+        <option value="texas">Texas</option>
+        </select><br>
+        <!--Date--><br>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+        </form>
+	</body>
+
+</html>
